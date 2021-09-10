@@ -25,4 +25,4 @@ RUN chown -R alex /home/alex
 
 USER alex
 
-CMD ["nvim"]
+CMD ["/bin/bash"]
